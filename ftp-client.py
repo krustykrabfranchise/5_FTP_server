@@ -15,3 +15,6 @@ while True:
     print(response)
     
     sock.close()
+    
+    if request == 'q':
+        break
